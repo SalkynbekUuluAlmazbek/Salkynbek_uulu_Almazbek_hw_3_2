@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ThirdFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/studyPlaceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:minHeight="74dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/gray"
+            android:hint="Study"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
+
+
+        <EditText
+            android:id="@+id/workPlaceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:minHeight="74dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/gray"
+            android:hint="Work"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
+
+
+        <Button
+            android:id="@+id/thirdNextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:minHeight="74dp"
+            android:layout_marginHorizontal="50dp"
+            android:background="@drawable/shape"
+            android:hint="Next"
+            android:gravity="center"
+            app:backgroundTint="@color/black"
+            android:textColorHint="@color/white"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
